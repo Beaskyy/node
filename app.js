@@ -1,6 +1,5 @@
-const _ = require('lodash')
+setInterval(() => {
+  console.log('Hello world')
+}, 2000);
 
-const items = [1,[2,[3,[4,]]]]
-const newItems = _.flattenDeep(items)
-
-console.log(newItems)
+console.log('I will run first')
